@@ -4,14 +4,14 @@
   <a href="#decisões-arquiteturais">Decisões Arquiteturais</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#estrutura-do-projeto">Estrutura do projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#funcionamento">Funcionamento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/https-shini/web-chat">Voltar</a>
+  <a href="https://github.com/https-shini/financas-reactjs">Voltar</a>
 </p>
 
 <br>
 
 ## Decisões Arquiteturais:
 
-- O Chat Web segue uma arquitetura cliente-servidor, onde o frontend é responsável pela interface do usuário e o backend gerencia a lógica de negócios e a comunicação com o servidor WebSocket. <br>
+- O sistema de controle de finanças segue uma arquitetura cliente-servidor, onde o frontend é responsável pela interface do usuário e o backend gerencia a lógica de negócios e a comunicação com o servidor WebSocket.
 - WebSocket: O uso do protocolo WebSocket permite uma comunicação bidirecional em tempo real entre clientes e servidor, facilitando a troca instantânea de mensagens.
 
 <br>
@@ -21,13 +21,13 @@
 ➜ **Frontend:**
 
 1. **HTML (index.html):**
-   - O arquivo HTML é responsável pela estruturação do conteúdo da página. Ele define os elementos como formulários de entrada de usuário, área de exibição de mensagens e botões de envio de mensagens.
+   - O arquivo HTML é responsável pela estruturação do conteúdo da página. Ele define os elementos como formulários de entrada de usuário, áreas de exibição de relatórios financeiros e botões de interação.
 
 2. **CSS (style.css):**
    - O arquivo CSS é responsável pela estilização e design da interface do usuário. Ele define as cores, fontes, layouts e estilos visuais que tornam a aplicação atraente e fácil de usar.
 
 3. **JavaScript (script.js):**
-   - O arquivo JavaScript é responsável por adicionar interatividade à página. Ele manipula eventos do usuário, como cliques e submissões de formulários, e se comunica com o servidor para enviar e receber mensagens em tempo real. Além disso, o JavaScript também é responsável por atualizar dinamicamente a interface do usuário para refletir novas mensagens recebidas.
+   - O arquivo JavaScript é responsável por adicionar interatividade à página. Ele manipula eventos do usuário, como cliques em botões e preenchimento de formulários, e se comunica com o backend para enviar e receber dados relacionados às finanças.
 
 <br>
 
@@ -43,17 +43,15 @@
 
 ## **Funcionamento:**
 
-- Quando um usuário acessa a aplicação, ele é apresentado com um formulário de login onde pode inserir seu nome.
-- Após inserir o nome e clicar em "Entrar", o usuário é redirecionado para a área de chat.
-- No chat, o usuário pode digitar mensagens no campo de entrada e enviar.
-- Quando uma mensagem é enviada, o JavaScript no frontend envia a mensagem para o servidor WebSocket no backend.
-- O servidor WebSocket recebe a mensagem e a retransmite para todos os outros clientes conectados.
-- As mensagens recebidas são exibidas dinamicamente na área de chat de todos os clientes, permitindo uma conversa em tempo real entre os usuários.
+- O usuário acessa a aplicação e é apresentado com a interface de controle de finanças.
+- Ele pode interagir com os diferentes elementos da interface, como formulários de adição de transações, filtros de visualização de relatórios e configurações de conta.
+- As informações inseridas pelo usuário são enviadas para o backend através de requisições HTTP ou WebSocket, dependendo da necessidade.
+- O backend processa as solicitações, atualiza o estado da aplicação e envia as respostas de volta para o frontend.
+- O frontend atualiza dinamicamente a interface do usuário para refletir as mudanças no estado da aplicação, garantindo uma experiência de usuário responsiva e fluida.
 
 <br>
 
 > **Informações Importantes sobre a Aplicação** <br>
-A aplicação suporta comunicação em tempo real entre os usuários através do protocolo WebSocket. <br>
-Os usuários podem ingressar na aplicação fornecendo um nome de usuário no formulário de login. <br>
-As mensagens enviadas por um usuário são instantaneamente exibidas para todos os outros participantes do chat. <br>
-O frontend é responsivo e foi projetado para ser compatível com diferentes dispositivos e tamanhos de tela. <br>
+A aplicação de controle de finanças suporta interações em tempo real entre o usuário e o servidor, facilitadas pelo uso do protocolo WebSocket. <br>
+Os usuários podem gerenciar suas finanças, adicionar novas transações, visualizar relatórios e configurar suas contas de forma conveniente e intuitiva. <br>
+O frontend é responsivo e foi projetado para oferecer uma experiência consistente em diferentes dispositivos e tamanhos de tela.
