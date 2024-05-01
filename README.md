@@ -54,10 +54,10 @@ Obtenha uma perspectiva detalhada do layout do projeto por meio da imagem abaixo
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/001.png" width=400 heigth=350 />
-<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/002.png" width=400 heigth=350 />
-<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/003.png" width=400 heigth=350 />
-<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/004.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/financas-reactjs/master/read-model/img/001.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/financas-reactjs/master/read-model/img/002.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/financas-reactjs/master/read-model/img/003.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/financas-reactjs/master/read-model/img/004.png" width=400 heigth=350 />
 
 </div>
 
