@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center">Controle de Finanças com React JS</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-hospedagem">Hospedagem</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;
+</p>
+<br>
 
-## Available Scripts
+![Preview](./dist/banner.png)
 
-In the project directory, you can run:
+## ☆ Hospedagem
+- Acesse o link abaixo e veja o código hospedado online.<br>
+https://financas-reactjs.vercel.app
 
-### `npm start`
+## ☆ Tecnologias
+- HTML
+- CSS
+- JavaScript
+- ReactJS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ☆ Projeto
+➜ [Como contribuir?](./read-model/CONTRIBUTING.md) <br>
+➜ [Documentação aprofundada](read-model/MODEL.md) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+Este projeto consiste em um sistema de controle de finanças desenvolvido utilizando React JS. Ele permite aos usuários gerenciar suas finanças, incluindo controle de receitas, despesas e visualização de relatórios financeiros. O projeto utiliza tecnologias como HTML5, CSS3, JavaScript e React JS para construir a interface do usuário e implementar a lógica de funcionamento do sistema.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Funcionalidades Principais
+- **Controle de Receitas e Despesas:** Os usuários podem adicionar e gerenciar suas receitas e despesas no sistema.
+- **Visualização de Relatórios Financeiros:** O projeto oferece a capacidade de visualizar relatórios financeiros, incluindo balanço geral, fluxo de caixa e análise de tendências.
+- **Gestão de Categorias:** Os usuários podem categorizar suas transações financeiras para uma melhor organização e análise.
+- **Configurações de Conta:** O sistema permite aos usuários configurar suas informações de conta, como nome, e-mail e senha.
 
-### `npm run build`
+## Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O frontend da aplicação é responsável por toda a interface com o usuário. Ele é desenvolvido utilizando a biblioteca React JS e consiste em uma série de componentes reutilizáveis que compõem as diferentes partes da interface. As suas principais funcionalidades incluem:
+- Exibição de Receitas e Despesas: Permite aos usuários visualizarem suas receitas e despesas em formatos gráficos e tabulares.
+- Adição e Edição de Transações: Permite aos usuários adicionar novas entradas ou saidas financeiras e editar as existentes.
+- Visualização de Relatórios: Oferece relatórios sobre o estado financeiro, como a entrada e saida da conta.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Uso do Projeto:**
+Os usuários podem utilizar o sistema através de um navegador web. As principais interações incluem:
+- Adicionar receitas e despesas.
+- Visualizar relatórios financeiros.
+- Gerenciar categorias.
+- Configurar informações de conta.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ☆ Layout
+Obtenha uma perspectiva detalhada do layout do projeto por meio da imagem abaixo.
 
-### `npm run eject`
+<div align="center">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/001.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/002.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/003.png" width=400 heigth=350 />
+<img src="https://raw.githubusercontent.com/https-shini/shopping-cart/main/read-model/img/004.png" width=400 heigth=350 />
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</div>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ☆ Licença
+Esse projeto está sob a [licença MIT](/LICENSE).
