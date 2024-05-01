@@ -23,7 +23,7 @@ https://financas-reactjs.vercel.app
 
 ## ☆ Projeto
 ➜ [Como contribuir?](./read-model/CONTRIBUTING.md) <br>
-➜ [Documentação aprofundada](read-model/MODEL.md) 
+<!-- ➜ [Documentação aprofundada](read-model/MODEL.md) -->
 
 <br>
 
